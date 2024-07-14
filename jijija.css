@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(98, 105, 144);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #3c384f;
+    box-shadow: 0px 0px 30px rgb(36, 27, 85);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    justify-content: center; 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0; 
+}
+
+.menu-horizontal > li {
+    position: relative;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: rgb(108, 74, 221);
+}
+
+.menu-vertical {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    list-style: none;
+    width: 165px;
+    background-color: rgba(0, 0, 0, 0.684);
+    padding: 0;
+    margin: 0;
+}
+
+.menu-vertical > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-vertical > li > a:hover {
+    background-color: rgb(108, 74, 221);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+
+.cuadro {
+    max-width: 900px;
+    box-shadow: 0px 0px 10px rgb(230, 230, 230);
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e7dede;
+    position: relative;
+    top: 40px;
+    border-radius: 50px;
+}
+
+.cuadro2 {
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgb(230, 230, 230);
+    padding: 20px;
+    background-color: #e7dede;
+    position: relative;
+    top: 40px;
+    border-radius: 50px;
+}
+
+.Usulutan {
+    max-width: 900px;
+    max-height:3200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e7dede;
+    position: relative;
+    top: 600px;
+    right: auto;
+    border-radius: 50px;
+    text-align: center;
+}
