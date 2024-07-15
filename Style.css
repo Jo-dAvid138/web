@@ -39,6 +39,8 @@ main {
 }
 
 img {
+    width: 50%;
+    height: auto;
     border-radius: 20px;
 }
 
